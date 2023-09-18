@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".PromiseActivity">
+
+    <TextView
+        android:id="@+id/atv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/pretendard_semibold"
+        android:text="서비스이용약관"
+        android:textColor="#111111"
+        android:textSize="27sp" />
+
+    <ImageButton
+        android:id="@+id/nobtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="-43dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:srcCompat="@drawable/img"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/pretendard_medium"
+            android:text="제 1조(목적)"
+            android:textColor="#111111"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/pretendard_regular"
+            android:text="모티브 서비스 이용약관은 모티브 주식회사가 제공하는 모티브 서비스 이용과 관련하여 회사와 이용자 간의 권리, 의무 및 책임 사항 등을 규정함을 목적으로 합니다."
+            android:textColor="#111111"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/pretendard_medium"
+            android:text="제 2조(정의)"
+            android:textColor="#111111"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:fontFamily="@font/pretendard_regular"
+            android:text="1. 이 약관에서 사용하는 용어의 정의는 다음과 같습니다.\n\n    - '서비스'란, 회사가 제공하는 모든 서비스 및 기능을 말합니다.\n     - '이용자'란, 이 약관에 따라 서비스를 이용하는 회원 및 비회원을 말합니다.\n      - '회원'이란, 서비스에 회원등록을 하고 서비스를 이용하는 자를 말합니다.\n      - '비회원'이란, 서비스에 회원등록을 하지 않고 서비스를 이용하는 자를 말합니다.\n      - '게시물'이란, 서비스에 게재된 문자, 사진, 영상, 첨부파일, 광고 등을 말합니다.\n        - '커뮤니티'란, 게시물을 게시할 수 있는 공간을 말합니다.\n        - '이용 기록'이란, 이용자가 서비스를 이용하면서 직접 생성한 데이터들을 말합니다.\n        - '로그 기록'이란, 이용자가 서비스를 이용하면서 자동으로 생선된 IP주소, 접속 시간 등을 말합니다.\n        - '기기 정보'란, 이용자의 통신 기기에서 수집된 유저 에이전트, ADID 등을 말합니다.\n       - '계정'이란, 이용계약을 통해 생성된 회원의 고유 아이디와 이에 수반하는 정보를 말합니다.\n       - '서비스 내부 알림 수단'이란, 팝업, 알림, 1:1 대화, 내 정보 메뉴 등을 말합니다.\n       - '관련법'이란, 정보통신망 이용촉진 및 정보보호 등에 관한 법률, 전기통신사업법, 개인정보보호법 등 관련 있는 국내 법령을 말합니다.\n        - '본인 인증'이란, 아이핀, 휴대전화 번호 등을 이용한 본인 확인 절차를 말합니다.\n        - '프로 갓생러'란, 금주에 앱 이용 누적시간이 가장 많은 2인을 각 분야에서 선정한 사람을 말합니다.\n\n\n2. 제1항에서 정의되지 않은 이 약관 내 용어의 의미는 일반적인 이용관행에 의합니다."
+            android:textColor="#111111"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    </LinearLayout>

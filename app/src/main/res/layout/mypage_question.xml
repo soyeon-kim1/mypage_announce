@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context=".MypageQuestion">
+
+    <ImageButton
+        android:id="@+id/backbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="365dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:srcCompat="@drawable/backbtn"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/nobtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="-48dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:srcCompat="@drawable/xbtn"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/titletv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="-44dp"
+        android:fontFamily="@font/pretendard_semibold"
+        android:text="문의하기"
+        android:textColor="#111111"
+        android:textSize="27dp"/>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/pretendard_medium"
+        android:text="내용"
+        android:textColor="#111111"
+        android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="370dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/liner1"
+            android:fontFamily="@font/pretendard_regular"
+            android:gravity="top"
+            android:textColor="#111111"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/pretendard_medium"
+        android:text="파일 첨부"
+        android:textColor="#111111"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/liner3"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"
+        android:text="파일 선택"
+        android:fontFamily="@font/pretendard_regular"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/pretendard_medium"
+        android:text="연락받을 이메일"
+        android:textColor="#111111"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:fontFamily="@font/pretendard_regular"
+        android:hint="이메일 주소를 적어주세요."
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColor="#111111"
+        android:textColorHint="#A1A1A1"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/pretendard_medium"
+        android:text="이용자 아이디"
+        android:textColor="#111111"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:fontFamily="@font/pretendard_regular"
+        android:hint="사용자 아이디를 적어주세요."
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColor="#111111"
+        android:textColorHint="#A1A1A1"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/pretendard_semibold"
+        android:text="개인정보 수집 및 이용"
+        android:textColor="#111111"
+        android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:checked="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/pretendard_regular"
+            android:minHeight="48dp"
+            android:text=" 개인정보 수집 및 이용 동의 (필수)"
+            android:textColor="#111111"
+            android:textSize="16sp"
+            android:visibility="visible" />
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="375dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/liner3"
+        android:fontFamily="@font/pretendard_semibold"
+        android:text="문의 접수하기"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

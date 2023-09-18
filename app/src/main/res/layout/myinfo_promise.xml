@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MyinfoPromiseActivity">
+
+    <TextView
+        android:id="@+id/atv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/pretendard_semibold"
+        android:text="개인정보처리방침"
+        android:textColor="#111111"
+        android:textSize="27sp" />
+
+    <ImageButton
+        android:id="@+id/nobtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="-43dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:srcCompat="@drawable/img"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/pretendard_medium"
+                android:text="1. 개인정보 처리방침"
+                android:textColor="#111111"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="@font/pretendard_regular"
+                android:text="개인정보 처리방침은 모티브 주식회사가 특장 가입절차를 거친 이용자들만 이용 가능한 폐쇄형 서비스를 제공함에 있어, 개인정보를 어떻게 수집, 이용, 보관, 파기하는지에 대한 정보를 담은 방침을 의미합니다. 개인정보 처리방침은 개인정보보호법 등 국내 개인정보 보호 법령을 모두 준수하고 있습니다. 본 개인정보 처리방침에서 정하지 않은 용어의 정의는 서비스 이용약관을 따릅니다."
+                android:textColor="#111111"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/pretendard_medium"
+                android:text="2. 수집하는 개인정보의 항목"
+                android:textColor="#111111"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="@font/pretendard_regular"
+                android:textColor="#111111"
+                android:textSize="16sp"
+                android:text="회사는 서비스 제공을 위해 다음 항목 중 최소한의 개인정보를 수집합니다."/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="@font/pretendard_medium"
+                android:textColor="#111111"
+                android:textSize="16sp"
+                android:text="1) 회원가입 시 수집되는 개인정보"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="@font/pretendard_regular"
+                android:textColor="#111111"
+                android:textSize="16sp"
+                android:text="아이디, 비밀번호, 이메일, 이름, 휴대전화 번호, 통신사 정보, 생년월일, 성별, 닉네임, 연계정보(CI, DI)"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="@font/pretendard_medium"
+                android:textColor="#111111"
+                android:textSize="16sp"
+                android:text="2) 별도로 수집되는 개인정보"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:fontFamily="@font/pretendard_regular"
+                android:textColor="#111111"
+                android:textSize="16sp"
+                android:text="1.    프로필 사진을 지정할 경우\n        프로필 사진\n2.   이벤트 및 행사 참여를 할 경우\n        이름, 전화번호, 주소\n3.   문의를 할 경우\n        서비스 이용 문의 : 이메일, 기기정보, 문의내용에 포함된 정보\n        제휴 문의 : 이름, 전화번호, 이메일, 회사(기관)명, 직책\n        광고 문의 : 이름, 전화번호, 이메일, 회사(기관)명, 직책\n4.   게시 중단 요청을 할 경우\n        요청인, 대리인 정보(이름, 단체명, 생년월일, 설립일, 마스킹 된 신분증 사본, 연락처, 이메일, 증빙 자료 사본)\n5.    광고 제공 및 발송 동의를 할 경우\n        아이디, 이메일, 이름, 휴대전화번호, 통신사 정보, 생년월일, 성별, 닉네임, IP주소, 쿠키, 서비스 이용기록, 기기정보, 광고ID, 추정된 개인정보(관심사)"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/pretendard_medium"
+                android:text="3. 수집한 개인정보의 처리 목적"
+                android:textColor="#111111"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

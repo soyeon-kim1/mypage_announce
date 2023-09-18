@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".ClickAnnounceActivity">
+
+    <ImageButton
+        android:id="@+id/backbtn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="365dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        app:srcCompat="@drawable/backbtn"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/atv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="-43dp"
+        android:fontFamily="@font/pretendard_semibold"
+        android:text="공지사항"
+        android:textColor="#111111"
+        android:textSize="27sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#F1F1F5"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/pretendard_regular"
+        android:text="9.2(토) 시스템 점검 사전안내"
+        android:textColor="#111111"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/pretendard_regular"
+        android:text="2023.08.30 15:21"
+        android:textColor="#979797"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="415dp"
+        android:layout_height="350dp"
+        android:background="#F5F5F5"
+        android:layout_marginTop="18dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="안녕하세요, 회원님! \n손목에서 시작되는 자기계발 앱, 모티브 팀입니다. \n\n9.2(토) 00시부터 안정적인 서비스 제공을 위한 \n서버 점검 작업이 진행될 예정이에요.
+\n\n이 시간동안 서비스 이용이 일시적으로 불가하니 \n양해 부탁드려요. \n\n[점검 일시] \n*2023.09.02(토) 00:00~08:00 (8시간) \n\n이용에 불편을 드려 죄송해요. \n작업 시간은 사정에 따라 조기종료 또는 연장될 수 있어요. \n\n열심히 준비해서 더욱 성장한 모티브로 찾아뵐게요!\n고맙습니다."
+            android:fontFamily="@font/pretendard_regular"
+            android:textSize="16dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#111111"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
